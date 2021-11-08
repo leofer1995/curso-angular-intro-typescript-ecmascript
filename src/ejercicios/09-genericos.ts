@@ -2,7 +2,7 @@
     ===== Código de TypeScript =====
 */
 
-function queTipoSoy<T>(argumento: T) {
+function queTipoSoy<T>(argumento: T) {//funciones que reciben diferentes tipos de dato en el argumento
     return argumento;
 }
 

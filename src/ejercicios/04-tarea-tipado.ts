@@ -1,20 +1,19 @@
 /*
     ===== Código de TypeScript =====
 */
-interface SuperHeroe {
-    nombre: string;
-    edad: number;
-    direccion: Direccion,
-    mostrarDireccion: () => string;
-}
 
 interface Direccion {
-    calle: string;
-    pais: string;
-    ciudad: string;
+    calle: string,
+    pais: string,
+    ciudad: string,
 }
 
-
+interface SuperHeroe {
+    nombre: string,
+    edad: number,
+    direccion: Direccion,
+    mostrarDireccion: () => string,
+}
 
 const superHeroe: SuperHeroe = {
     nombre: 'Spiderman',
@@ -32,5 +31,7 @@ const superHeroe: SuperHeroe = {
 
 const direccion = superHeroe.mostrarDireccion();
 console.log( direccion );
+
+
 
 

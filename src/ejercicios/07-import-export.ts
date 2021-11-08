@@ -2,6 +2,7 @@ import { Producto, calculaISV } from './06-desestructuracion-funcion';
 /*
     ===== Código de TypeScript =====
 */
+//import y export igual que en js
 
 const carritoCompras: Producto[] = [
     {

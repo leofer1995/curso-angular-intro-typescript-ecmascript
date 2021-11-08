@@ -5,7 +5,7 @@
 
 interface Pasajero {
   nombre: string;
-  hijos?: string[]
+  hijos?: string[]//opcional
 }
 
 const pasajero1: Pasajero = {

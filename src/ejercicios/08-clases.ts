@@ -13,7 +13,7 @@ class PersonaNormal {
 
 class Heroe extends PersonaNormal {
 
-    constructor( 
+    constructor( //se inicializan con los datos que envio cuando creo la instancia
         public alterEgo: string,
         public edad: number,
         public nombreReal: string

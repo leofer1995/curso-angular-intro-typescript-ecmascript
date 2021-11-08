@@ -9,8 +9,8 @@ function classDecorator<T extends { new (...args: any[]): {} }>(
       hello = "override";
     };
   }
-  
 
+//cambiar en el tsConfig epermentaldecorators
 
 @classDecorator
 class MiSuperClase {

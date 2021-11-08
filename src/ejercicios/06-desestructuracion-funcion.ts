@@ -23,7 +23,7 @@ export function calculaISV( productos: Producto[] ):[number, number] {
 
     let total = 0;
 
-    productos.forEach(  ({ precio }) => {
+    productos.forEach(  ({ precio }) => {//desestructuracion en funciones igual que en js
         total += precio;
     })
 

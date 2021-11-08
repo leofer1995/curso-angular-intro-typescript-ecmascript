@@ -2,6 +2,8 @@
     ===== Código de TypeScript =====
 */
 
+// igual que como s ha heho siempre en js
+
 interface Reproductor {
     volumen: number;
     segundo: number;
